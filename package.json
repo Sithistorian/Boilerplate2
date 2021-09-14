@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
+    "build": "webpack --watch",
     "start": "nodemon server -w"
   },
   "repository": {
@@ -19,7 +20,8 @@
   "homepage": "https://github.com/Sithistorian/Boilerplate2#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.0.5"
+    "mongoose": "^6.0.5",
+    "vue": "^3.2.11"
   },
   "devDependencies": {
     "nodemon": "^2.0.12",
