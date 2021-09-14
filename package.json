@@ -1,0 +1,19 @@
+{
+  "name": "boilerplate2",
+  "version": "1.0.0",
+  "description": "This is a boilderplate for Vue/Express/MongoDB projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sithistorian/Boilerplate2.git"
+  },
+  "author": "Tristan Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sithistorian/Boilerplate2/issues"
+  },
+  "homepage": "https://github.com/Sithistorian/Boilerplate2#readme"
+}
