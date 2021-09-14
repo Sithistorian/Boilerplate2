@@ -10,3 +10,5 @@ const db = mongoose.connect(mongoURI, (err, success) => {
   }
 
 })
+
+module.exports = db;
