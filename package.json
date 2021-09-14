@@ -4,7 +4,8 @@
   "description": "This is a boilderplate for Vue/Express/MongoDB projects",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon server -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Sithistorian/Boilerplate2/issues"
   },
-  "homepage": "https://github.com/Sithistorian/Boilerplate2#readme"
+  "homepage": "https://github.com/Sithistorian/Boilerplate2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
