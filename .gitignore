@@ -49,7 +49,7 @@ build/Release
 
 # Compiled Bundle
 
-dist/bundle.js
+public/bundle.js
 
 # Dependency directories
 
