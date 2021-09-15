@@ -1,12 +1,15 @@
 <template>
-  <div>Vue is working now!</div>
+  <div>{{message}}</div>
 </template>
 
-<script>
-import { defineComponent } from 'vue'
 
-export default defineComponent({
-  template: `<div>Vue is working now!</div>`
-})
+<script>
+export default {
+  data() {
+    return {
+      message: 'Vue is working just fine!'
+    }
+  }
+}
 </script>
 
