@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb://localhost/yourDB';
+const yourDB = 'yourDatabaseName';
+const mongoURI = `mongodb://localhost/${yourDB}`;
 
 const db = mongoose.connect(mongoURI, (err, success) => {
 
