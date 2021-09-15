@@ -1,8 +1,9 @@
-import Vue from 'vue';
-// import App from './App.vue';
+const Vue = require('vue');
+console.log('this is running')
 
 const App = {
   template: '<div>Vue is Working now!</div>'
 }
 
 Vue.createApp(App).mount('#app')
+
