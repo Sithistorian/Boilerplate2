@@ -1,6 +1,6 @@
 # Boilerplate2
 
-This is a boilerplate for Vue, Express, and MongoDB using Mongoose
+This is a boilerplate for Vue, Express, and MongoDB using Mongoose but without Vue-Cli
 
 # Instructions
 
